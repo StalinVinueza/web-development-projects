@@ -17,6 +17,8 @@
       gap: 3rem;
       grid-template-columns: 1fr 1fr 1.5fr;
       grid-template-rows: 1fr 1fr;
+      grid-column-gap: 100px;
+      grid-row-gap: 100px;
     }
 
     .item {
@@ -37,7 +39,8 @@
 
     .astronaut {
       background-color: #03989E;
-      order: 1;
+      order: 3;
+      grid-column: span 2;
 
       /* TODO: Make the astronaut box look like the goal2 image. */
 
